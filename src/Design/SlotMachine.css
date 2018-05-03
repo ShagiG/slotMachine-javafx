@@ -1,0 +1,63 @@
+.root{ 
+    -fx-background-image: url("bg.jpg");
+
+}
+
+.button {
+    -fx-max-width: 300px;
+    -fx-min-width: 150px;
+    -fx-background-color:
+            linear-gradient(#f0ff35, #a9ff00),
+            radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+    -fx-background-radius: 6, 5;
+    -fx-border-color: #15005e;
+    -fx-border-width: 5px;
+    -fx-border-radius: 5px;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #480151;
+    -fx-font-size: 20px;
+}
+
+#hbox-style {
+    -fx-spacing: 25px;
+    -fx-alignment: center;
+
+}
+
+#gameBox-style {
+    -fx-border-color: #80c800;
+    -fx-border-width: 10px;
+    -fx-background-image: url("bgfinal.jpg");
+    -fx-alignment: center;
+}
+
+.label {
+    -fx-font-size: 25px;
+    -fx-background-color: #80c800 ;
+    -fx-border-color: #15005e;
+    -fx-max-width: 250px;
+    -fx-min-width: 200px;
+
+}
+
+#mainHBox-style {
+    -fx-spacing: 300px;
+    -fx-alignment: bottom-center;
+}
+/**styling the result style label
+*/
+#result-style {
+    -fx-background-color: #a9ff00 ;
+    -fx-font-size: 50px;
+    -fx-max-width: 700px;
+    -fx-min-width: 200px;
+}
+/**styling the spin and the resest buttons
+*/
+#spinAndRestBtn-style {
+    -fx-max-height: 100px;
+    -fx-min-height: 50px;
+
+}
+
